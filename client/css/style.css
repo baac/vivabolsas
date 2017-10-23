@@ -22,6 +22,7 @@ h1 {
 h2 {
   font-size: 30px;
   margin-bottom: 65px;
+  color: #D1B61E
 }
 
 h3 {
@@ -50,7 +51,7 @@ a {
   Elements
   ================================================== */
 .btn {
-  background-color: #199EB8;
+  background-color: #D1B61E;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 800;
   color: #fff;
@@ -81,6 +82,10 @@ section {
   padding: 85px 0;
 }
 
+.about {
+  background-color: #edf6ff
+}
+
 .card {
   position: relative;
   padding: 0;
@@ -102,7 +107,7 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #199EB8;
+  background: #D1B61E;
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -167,7 +172,7 @@ a:hover {
   Header Styling
 ================================================== */
 #header {
-  background: #199EB8;
+  background: #668885;
   height: 70px;
 }
 
@@ -581,7 +586,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio h2 {
-  color: #199EB8;
   margin-bottom: 25px;
 }
 
@@ -646,9 +650,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ==================================================
   Team Styling
   ================================================== */
-.team h2 {
-  color: #199EB8;
+
+.team {
+  background-color: #668885
 }
+
 
 .team .col-sm-3 {
   padding: 0;
@@ -746,24 +752,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   Contact Section
   ================================================== */
 #contact {
-  background: #f7f7f7;
+  background: #668885;
   padding: 80px 0;
 }
 
 #contact h2 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  color: #199EB8;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #199EB8;
+  color: #D1B61E;
   float: left;
 }
 
 #contact .info p {
   padding: 0 0 0px 50px;
   line-height: 18px;
+  color: white;
   
 }
 
@@ -803,10 +809,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
+  
+
 }
 
 #contact .form button[type="submit"] {
-  background: #199EB8;
+  background: #D1B61E;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -934,7 +942,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 18px !important;
   }
   .portfolio-grid .card .card-text {
-    font-size: 13px;
+    font-size: 10px !important;
   }
   .team .team-over {
     padding-top: 20px;
